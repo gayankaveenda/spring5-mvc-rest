@@ -65,7 +65,6 @@ public class CustomerServiceTest {
         CustomerDTO customerDTO = customerService.getCustomerById(ID);
 
         //then
-        assertEquals(ID, customerDTO.getId());
         assertEquals(FIRST, customerDTO.getFirstname());
         assertEquals(LAST, customerDTO.getLastname());
         assertEquals(URL, customerDTO.getCustomerUrl());
